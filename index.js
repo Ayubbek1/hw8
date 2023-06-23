@@ -21,7 +21,7 @@ let current_time = new Date().getTime()
 let current_time_hour = new Date().getHours()
 let current_time_min = Math.floor((current_time / (1000 *60)) % 60)
 let current_time_sec = Math.floor((current_time / 1000) % 60)
-вечер
+
 console.log(
     current_time_hour,
     current_time_min,
